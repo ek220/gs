@@ -1,0 +1,2 @@
+# gs
+Golang structures
