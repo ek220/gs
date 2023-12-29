@@ -7,3 +7,8 @@ Golang Data Structures
 #### Set
 
 Set of unique elements
+
+#### Stack
+
+Stack is LIFO data collection
+
