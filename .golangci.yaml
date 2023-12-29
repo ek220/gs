@@ -1,4 +1,3 @@
-# Options for analysis running.
 run:
   concurrency: 4
   timeout: 5m
@@ -17,7 +16,6 @@ linters:
     - containedctx
     - contextcheck
     - cyclop
-    - deadcode
     - decorder
     - depguard
     - dogsled
@@ -30,7 +28,6 @@ linters:
     - errorlint
     - execinquery
     - exhaustive
-    - exhaustivestruct
     - exhaustruct
     - exportloopref
     - forbidigo
@@ -52,7 +49,6 @@ linters:
     - gofumpt
     - goheader
     - goimports
-    - golint
     - gomnd
     - gomoddirectives
     - gomodguard
@@ -61,17 +57,13 @@ linters:
     - gosimple
     - govet
     - grouper
-    - ifshort
     - importas
     - ineffassign
     - interfacebloat
-    - interfacer
-    # - ireturn
     - lll
     - loggercheck
     - maintidx
     - makezero
-    - maligned
     - misspell
     - musttag
     - nakedret
@@ -82,7 +74,6 @@ linters:
     - noctx
     - nolintlint
     - nonamedreturns
-    - nosnakecase
     - nosprintfhostport
     - paralleltest
     - prealloc
@@ -91,10 +82,8 @@ linters:
     - reassign
     - revive
     - rowserrcheck
-    - scopelint
     - sqlclosecheck
     - staticcheck
-    - structcheck
     - stylecheck
     - tagliatelle
     - tenv
@@ -107,9 +96,8 @@ linters:
     - unparam
     - unused
     - usestdlibvars
-    - varcheck
-    # - varnamelen
     - wastedassign
     - whitespace
     - wrapcheck
     - wsl
+
